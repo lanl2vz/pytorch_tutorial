@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorch-tutorial"
+version = "0.0.1"
+description = "Simple PyTorch tutorial code"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "torch",
+  "torchvision",
+  "torchaudio",
+]
+
